@@ -73,7 +73,7 @@ namespace Ghor_Bhubon.Controllers
                     case UserRole.Landlord:
                         return RedirectToAction("Dashboard", "LandLord");
                     case UserRole.Admin:
-                        return RedirectToAction("AdminDashboard", "Home");
+                        return RedirectToAction("AdminDashboard", "Admin");
                 }
             }
 
